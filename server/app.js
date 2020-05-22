@@ -18,7 +18,7 @@ const cloudinary = require('cloudinary')
 //mongoConfig = mongodb://heroku_8bd94qrf:irstf0rv1ds970eebtislm0apf@ds029638.mlab.com:29638/heroku_8bd94qrf
 //mongoose.connect(mongoConfig, { useNewUrlParser: true, useCreateIndex: true, },function(error){
 
-mongoose.connect(`mongodb://localhost:27017/AuroraShop`, { useNewUrlParser: true, useCreateIndex: true, },function(error){
+mongoose.connect(`mongodb+srv://pgyh:mmmmmm88@cluster0-ddyp4.mongodb.net/test?retryWrites=true&w=majority`, { useNewUrlParser: true, useCreateIndex: true, },function(error){
   if(error) throw error
     console.log(`connect mongodb success`);
 });
